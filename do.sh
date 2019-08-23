@@ -1,8 +1,6 @@
 #/bin/bash
 
-d=date
-
-touch $d
+touch $RANDOM
 git add .
-git commit -m "$d"
+git commit -m "$RANDOM"
 git push
